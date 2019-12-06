@@ -7,76 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B419CE9A20B318E45449A22FA7FA75 /* Pods-AJAppEventSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B609ABB9B6E2FAC307390E9231C46911 /* Pods-AJAppEventSwift_Tests-dummy.m */; };
-		02D85B496D51DD48DDAE70DE490E05B1 /* Pods-AJAppEventSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBEDC9DF3FBAAE4D3345AC421D0E17C /* Pods-AJAppEventSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02993D82D43FE8F8B8E33A3850D8B91A /* repleace2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67AB6100911ED239F3FDEE5B53F26F /* repleace2.swift */; };
+		092E71165CF354D7928BA02A5E3FA39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		19614061478C04760A5520BCA9E4B686 /* Pods-AJAppEventSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7122C4F7EAE7CC424F747ED5668847 /* Pods-AJAppEventSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA7B738D0FD9C2BE045F763C4A58152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2A0CFD08C0F320245D6E5DF154C141D8 /* NSObject+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4011BC63DAF68BA288BD8A1ECBF97D74 /* NSObject+AJKit.swift */; };
 		3ED49291FB25E494F25F14C91E767304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4CE9BB1C2BB7E5BDA6D1BE2114A94315 /* AJAppEventSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE82E619A2DBD91DAACB8A8FA889513B /* AJAppEventSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D2B714A86773139A9734675E64E4DA6 /* Pods-AJAppEventSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DF0ABD6BB167B23E43F461CB83674 /* Pods-AJAppEventSwift_Example-dummy.m */; };
-		6AE82EA083E6FE4C9687FB3E615F9BE1 /* AJAppEventSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5DF19A54F01AFEEFA346DFA5D7434D /* AJAppEventSwift-dummy.m */; };
-		B404CB157036D599165EA48A1D00ADEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C1FEC604C0EF8AA1FF4AF187ACC06B53 /* Pods-AJAppEventSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2695F19336AB0AF6D62B7D76F3F7E3 /* Pods-AJAppEventSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3B975E6856A00B906BC2944E0419B5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DAB8739BE4524A4DFB2C3B527516C06E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC52FA34FA6FC80402A7E06D19B8527 /* ReplaceMe.swift */; };
+		3FDE065F5A9D27AE4BB6E981FA094C08 /* AJKitSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C69B753C8D73878D99875355E3566C72 /* AJKitSwift-dummy.m */; };
+		4CE9BB1C2BB7E5BDA6D1BE2114A94315 /* AJAppEventSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1505D807DC34DAA2874F1CD491BF1C23 /* AJAppEventSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE82EA083E6FE4C9687FB3E615F9BE1 /* AJAppEventSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC02C023753DEA3DC9DCB790248E7E0 /* AJAppEventSwift-dummy.m */; };
+		6BA258F29CDF45ED5F4287805DDF6F4E /* AJKitSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 004502FB4193D0A70101D885598A593A /* AJKitSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84791EA63AD3A9B2A6DEE9B8C3D68ED5 /* UIViewController+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01202489187F1A0C887AF181453974C /* UIViewController+AJKit.swift */; };
+		A76F99C328A66B80EC685FC8A4E753F9 /* Pods-AJAppEventSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E03086FBF015E8D12CD74A4FDC77A6E /* Pods-AJAppEventSwift_Example-dummy.m */; };
+		D659D0FAD2A0D644BEE22F47A2FB316B /* String+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1692CD7A016654A6B457E0DF04D35A /* String+AJKit.swift */; };
+		DA65C30D078F2812C7601323B59D6A94 /* repleace1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A287D8D78E92329FABB49FD512154 /* repleace1.swift */; };
+		DAB8739BE4524A4DFB2C3B527516C06E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D4441D2AB5EB00140D4F5F5736DA0 /* ReplaceMe.swift */; };
+		F546EDA4697D98E09846F95BE19E52D3 /* AJKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9D2F3248F5A1D7A5D2F961826142F /* AJKitConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2DFAB5833E6954835E6A6DB54C705104 /* PBXContainerItemProxy */ = {
+		739F7C1285BBD924F9ED05787FD07EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703C2A997B824F12775923E04C79D426;
+			remoteInfo = AJKitSwift;
+		};
+		A74B8B4A916F5C69C3D3CF39A82D522A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6918CB7A31B692EC369DDE28EEF1EDBC;
 			remoteInfo = AJAppEventSwift;
 		};
-		8F1378C2A3914FECAA428C301E910388 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0A7979BF6B92527DF6C779CBDA87FBB1;
-			remoteInfo = "Pods-AJAppEventSwift_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10B74E446604A6BDBFBAA573BAA54B6C /* Pods-AJAppEventSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJAppEventSwift_Example.modulemap"; sourceTree = "<group>"; };
-		1249E500668439859ADFAC2D1BE72DEF /* Pods-AJAppEventSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAppEventSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		18A9CED2B6D9CDF8E1ED164EE86836B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		20CE9514D34E46909ACC21B45E9BDBAC /* Pods-AJAppEventSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJAppEventSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22C843908E5E384D9B473398C7CF019A /* Pods-AJAppEventSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJAppEventSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		282F9FDC98E5A9530659FE52870D144E /* AJAppEventSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJAppEventSwift.modulemap; sourceTree = "<group>"; };
+		004502FB4193D0A70101D885598A593A /* AJKitSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJKitSwift-umbrella.h"; sourceTree = "<group>"; };
+		0BA9D2F3248F5A1D7A5D2F961826142F /* AJKitConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJKitConfig.swift; path = AJKitSwift/Classes/Foundation/AJKitConfig.swift; sourceTree = "<group>"; };
+		0E67AB6100911ED239F3FDEE5B53F26F /* repleace2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = repleace2.swift; path = AJKitSwift/Classes/Runtime/repleace2.swift; sourceTree = "<group>"; };
+		12F3B64B04A5FBB2F60F62B6B09EBEED /* AJAppEventSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJAppEventSwift.xcconfig; sourceTree = "<group>"; };
+		1505D807DC34DAA2874F1CD491BF1C23 /* AJAppEventSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAppEventSwift-umbrella.h"; sourceTree = "<group>"; };
+		196D3D45D0E0AFD37B3259836823DC3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1F2667C8F9100A34EFC629E89DD05940 /* AJKitSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJKitSwift.framework; path = AJKitSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F61A69A2CF2B8A6AFBAF73FF95E9644 /* Pods-AJAppEventSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJAppEventSwift_Example.modulemap"; sourceTree = "<group>"; };
+		29DC6555FC9F3082BDD1977E1B0C1670 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		310946A7D7DF2E6678515E950F3F5266 /* AJAppEventSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAppEventSwift-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3A5DF19A54F01AFEEFA346DFA5D7434D /* AJAppEventSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJAppEventSwift-dummy.m"; sourceTree = "<group>"; };
-		3BEDFB809737DCDF8A4020B519166ED3 /* AJAppEventSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJAppEventSwift-Info.plist"; sourceTree = "<group>"; };
-		51D0DA3841FEF9774EA8D2DCF57E2ED1 /* AJAppEventSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAppEventSwift-prefix.pch"; sourceTree = "<group>"; };
-		6A54A5DEE5271155A405455DC55E6794 /* AJAppEventSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJAppEventSwift.xcconfig; sourceTree = "<group>"; };
-		7E7AA258FB059A262A7B42B63AAD6DEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		897DF0ABD6BB167B23E43F461CB83674 /* Pods-AJAppEventSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJAppEventSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		8B2DB58E5530B17AD2355B91DB21E495 /* Pods-AJAppEventSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJAppEventSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9ABAB2D793CF7A584DDB905A63B0ABF6 /* Pods-AJAppEventSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAppEventSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3E03086FBF015E8D12CD74A4FDC77A6E /* Pods-AJAppEventSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJAppEventSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		4011BC63DAF68BA288BD8A1ECBF97D74 /* NSObject+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+AJKit.swift"; path = "AJKitSwift/Classes/Foundation/NSObject+AJKit.swift"; sourceTree = "<group>"; };
+		4CB851E83F6DCE2D19F8969E276F558C /* Pods-AJAppEventSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAppEventSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		4E7122C4F7EAE7CC424F747ED5668847 /* Pods-AJAppEventSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJAppEventSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		4EADC016BA789DC6DB8EDD44A456A819 /* AJKitSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJKitSwift-prefix.pch"; sourceTree = "<group>"; };
+		61387CD4CBF5974B6B3ADE3231BD5923 /* AJKitSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJKitSwift.modulemap; sourceTree = "<group>"; };
+		63027E2E958A016D6093210E906CFC2E /* Pods-AJAppEventSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAppEventSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		711A287D8D78E92329FABB49FD512154 /* repleace1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = repleace1.swift; path = AJKitSwift/Classes/Algorithm/repleace1.swift; sourceTree = "<group>"; };
+		77B1318031B29E9E99192FF271ACE77E /* AJAppEventSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJAppEventSwift.modulemap; sourceTree = "<group>"; };
+		7C7E27CA4636643BB18D6F148E249120 /* AJAppEventSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJAppEventSwift-Info.plist"; sourceTree = "<group>"; };
+		8028E1447313E99BEDDD444A2B81E25D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		86AF589BB21536DD63F3701EC7ED3CBB /* AJKitSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJKitSwift.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A81807E970091BFC8454942C472F844A /* AJAppEventSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJAppEventSwift.framework; path = AJAppEventSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1C064111F439264C566F883978361C5 /* Pods_AJAppEventSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJAppEventSwift_Tests.framework; path = "Pods-AJAppEventSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B609ABB9B6E2FAC307390E9231C46911 /* Pods-AJAppEventSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJAppEventSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		B93AF0583233C8F83CD45744ABF4D972 /* AJAppEventSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJAppEventSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE82E619A2DBD91DAACB8A8FA889513B /* AJAppEventSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAppEventSwift-umbrella.h"; sourceTree = "<group>"; };
-		C1FFD2C59F4BC2F9788A62C3DDB89031 /* Pods-AJAppEventSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAppEventSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C6A8715BFDF6B85F711C30F4B69EAE0E /* Pods-AJAppEventSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJAppEventSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		CC6FFCF7C7472CEAC75FE160B4150B84 /* Pods-AJAppEventSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAppEventSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D046118089B5245D4971340ACBAE3BFC /* Pods-AJAppEventSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAppEventSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DAC52FA34FA6FC80402A7E06D19B8527 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AJAppEventSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		DBBEDC9DF3FBAAE4D3345AC421D0E17C /* Pods-AJAppEventSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJAppEventSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		AC9D4441D2AB5EB00140D4F5F5736DA0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AJAppEventSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B01202489187F1A0C887AF181453974C /* UIViewController+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+AJKit.swift"; path = "AJKitSwift/Classes/UIKit/UIViewController+AJKit.swift"; sourceTree = "<group>"; };
+		B0366BD2EEDC750BEBB165506043C161 /* Pods-AJAppEventSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAppEventSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6870DCEF1D3F181CFAF72B33A33776F /* AJKitSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJKitSwift-Info.plist"; sourceTree = "<group>"; };
+		BAC02C023753DEA3DC9DCB790248E7E0 /* AJAppEventSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJAppEventSwift-dummy.m"; sourceTree = "<group>"; };
+		BC65841E5ACACB53ECC4395B668AC3B5 /* Pods-AJAppEventSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJAppEventSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BFEC266F05F6A0EDFFF8E4C519006120 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C69B753C8D73878D99875355E3566C72 /* AJKitSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJKitSwift-dummy.m"; sourceTree = "<group>"; };
+		C732872910168DD4152A7248FAE88D9C /* Pods-AJAppEventSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJAppEventSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D40119100B164305E6F90F7FA312CE76 /* Pods-AJAppEventSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAppEventSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1692CD7A016654A6B457E0DF04D35A /* String+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+AJKit.swift"; path = "AJKitSwift/Classes/Foundation/String+AJKit.swift"; sourceTree = "<group>"; };
 		E2A6C9AEC4CE9FA6C25D88D9E3EEA418 /* Pods_AJAppEventSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJAppEventSwift_Example.framework; path = "Pods-AJAppEventSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7CEF01E96D5BE1B89B5270B0AA9D2B1 /* Pods-AJAppEventSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAppEventSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E899774E4AA9F28617092D8E7E47DB00 /* Pods-AJAppEventSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAppEventSwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		EE2695F19336AB0AF6D62B7D76F3F7E3 /* Pods-AJAppEventSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJAppEventSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FB877DB6CA83298DD0D486B8BA972E1A /* Pods-AJAppEventSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAppEventSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE45E3E2AC0902BE419B4A49EADB18B5 /* AJAppEventSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJAppEventSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB1B806BA2555BCF6004B6AD09EA2FC6 /* AJKitSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJKitSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B3F2A678F60EBE356978984D85D0EF5B /* Frameworks */ = {
+		12F99BC5114DF69DF64274F75EA9E7B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B404CB157036D599165EA48A1D00ADEA /* Foundation.framework in Frameworks */,
+				1EA7B738D0FD9C2BE045F763C4A58152 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0CBDD0B6121F0D1C81CF3DCB00A4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092E71165CF354D7928BA02A5E3FA39A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,80 +109,117 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9B78BB7749C999E1B473F634B994698 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3B975E6856A00B906BC2944E0419B5D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FFC390E5232506BC05BC8C5A5C458A5 /* Pods-AJAppEventSwift_Tests */ = {
+		1732EB78B7570CA2752028DCDA91D2B9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C6A8715BFDF6B85F711C30F4B69EAE0E /* Pods-AJAppEventSwift_Tests.modulemap */,
-				20CE9514D34E46909ACC21B45E9BDBAC /* Pods-AJAppEventSwift_Tests-acknowledgements.markdown */,
-				E7CEF01E96D5BE1B89B5270B0AA9D2B1 /* Pods-AJAppEventSwift_Tests-acknowledgements.plist */,
-				B609ABB9B6E2FAC307390E9231C46911 /* Pods-AJAppEventSwift_Tests-dummy.m */,
-				E899774E4AA9F28617092D8E7E47DB00 /* Pods-AJAppEventSwift_Tests-Info.plist */,
-				EE2695F19336AB0AF6D62B7D76F3F7E3 /* Pods-AJAppEventSwift_Tests-umbrella.h */,
-				FB877DB6CA83298DD0D486B8BA972E1A /* Pods-AJAppEventSwift_Tests.debug.xcconfig */,
-				9ABAB2D793CF7A584DDB905A63B0ABF6 /* Pods-AJAppEventSwift_Tests.release.xcconfig */,
+				77B1318031B29E9E99192FF271ACE77E /* AJAppEventSwift.modulemap */,
+				12F3B64B04A5FBB2F60F62B6B09EBEED /* AJAppEventSwift.xcconfig */,
+				BAC02C023753DEA3DC9DCB790248E7E0 /* AJAppEventSwift-dummy.m */,
+				7C7E27CA4636643BB18D6F148E249120 /* AJAppEventSwift-Info.plist */,
+				310946A7D7DF2E6678515E950F3F5266 /* AJAppEventSwift-prefix.pch */,
+				1505D807DC34DAA2874F1CD491BF1C23 /* AJAppEventSwift-umbrella.h */,
 			);
-			name = "Pods-AJAppEventSwift_Tests";
-			path = "Target Support Files/Pods-AJAppEventSwift_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AJAppEventSwift";
 			sourceTree = "<group>";
 		};
-		2AFB5E70766D0A02B1BC245C9F5BEF1B /* Development Pods */ = {
+		1DADE802853B7198ADBFF7B142EBDA50 /* AJAppEventSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E092E39060AFEACAE93C6A6FE72BF343 /* AJAppEventSwift */,
+				AC9D4441D2AB5EB00140D4F5F5736DA0 /* ReplaceMe.swift */,
+				E9D6217F9F210F9FBCE3FE43E7CE3F17 /* Pod */,
+				1732EB78B7570CA2752028DCDA91D2B9 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = AJAppEventSwift;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		5AE5760567F9E242BDFE59DD069946E1 /* Pods-AJAppEventSwift_Example */ = {
+		258C6FFDD326F1121C32C32F8E24C340 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				10B74E446604A6BDBFBAA573BAA54B6C /* Pods-AJAppEventSwift_Example.modulemap */,
-				8B2DB58E5530B17AD2355B91DB21E495 /* Pods-AJAppEventSwift_Example-acknowledgements.markdown */,
-				CC6FFCF7C7472CEAC75FE160B4150B84 /* Pods-AJAppEventSwift_Example-acknowledgements.plist */,
-				897DF0ABD6BB167B23E43F461CB83674 /* Pods-AJAppEventSwift_Example-dummy.m */,
-				22C843908E5E384D9B473398C7CF019A /* Pods-AJAppEventSwift_Example-frameworks.sh */,
-				1249E500668439859ADFAC2D1BE72DEF /* Pods-AJAppEventSwift_Example-Info.plist */,
-				DBBEDC9DF3FBAAE4D3345AC421D0E17C /* Pods-AJAppEventSwift_Example-umbrella.h */,
-				C1FFD2C59F4BC2F9788A62C3DDB89031 /* Pods-AJAppEventSwift_Example.debug.xcconfig */,
-				D046118089B5245D4971340ACBAE3BFC /* Pods-AJAppEventSwift_Example.release.xcconfig */,
+				F979EB29FBDE2DF2DE9ED43BDD461467 /* Pods-AJAppEventSwift_Example */,
 			);
-			name = "Pods-AJAppEventSwift_Example";
-			path = "Target Support Files/Pods-AJAppEventSwift_Example";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8B1C010819B26A92309E8BD8A4DCE99B /* Products */ = {
+		28652B8D88898C477C6E25DF54ADC7DF /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				0E67AB6100911ED239F3FDEE5B53F26F /* repleace2.swift */,
+			);
+			name = Runtime;
+			sourceTree = "<group>";
+		};
+		29759EADF6FB0321537E24519B000323 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				0BA9D2F3248F5A1D7A5D2F961826142F /* AJKitConfig.swift */,
+				4011BC63DAF68BA288BD8A1ECBF97D74 /* NSObject+AJKit.swift */,
+				DE1692CD7A016654A6B457E0DF04D35A /* String+AJKit.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		3055D406025EC87CC38406FDF2722E1A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FB1B806BA2555BCF6004B6AD09EA2FC6 /* AJKitSwift.podspec */,
+				196D3D45D0E0AFD37B3259836823DC3D /* LICENSE */,
+				29DC6555FC9F3082BDD1977E1B0C1670 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		60070108A415114B5BE0842D19CD8A23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				A81807E970091BFC8454942C472F844A /* AJAppEventSwift.framework */,
+				1F2667C8F9100A34EFC629E89DD05940 /* AJKitSwift.framework */,
 				E2A6C9AEC4CE9FA6C25D88D9E3EEA418 /* Pods_AJAppEventSwift_Example.framework */,
-				B1C064111F439264C566F883978361C5 /* Pods_AJAppEventSwift_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B423F9F068419F0240EFE8DE1B1FE7C /* Support Files */ = {
+		6F3378E20B8C8842C3A4497F17D6C3A7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				282F9FDC98E5A9530659FE52870D144E /* AJAppEventSwift.modulemap */,
-				6A54A5DEE5271155A405455DC55E6794 /* AJAppEventSwift.xcconfig */,
-				3A5DF19A54F01AFEEFA346DFA5D7434D /* AJAppEventSwift-dummy.m */,
-				3BEDFB809737DCDF8A4020B519166ED3 /* AJAppEventSwift-Info.plist */,
-				51D0DA3841FEF9774EA8D2DCF57E2ED1 /* AJAppEventSwift-prefix.pch */,
-				BE82E619A2DBD91DAACB8A8FA889513B /* AJAppEventSwift-umbrella.h */,
+				1DADE802853B7198ADBFF7B142EBDA50 /* AJAppEventSwift */,
+				9C970D2F090AD88B8C7AADA7B5E8D131 /* AJKitSwift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AJAppEventSwift";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9C970D2F090AD88B8C7AADA7B5E8D131 /* AJKitSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A7FFBE6D6F54169D4C488771BA81E847 /* Algorithm */,
+				29759EADF6FB0321537E24519B000323 /* Foundation */,
+				3055D406025EC87CC38406FDF2722E1A /* Pod */,
+				28652B8D88898C477C6E25DF54ADC7DF /* Runtime */,
+				D1D44D061E6D170030890FD942476F61 /* Support Files */,
+				A6619464F6292EF4776E75DAEA096950 /* UIKit */,
+			);
+			name = AJKitSwift;
+			path = ../../../AJKitSwift;
+			sourceTree = "<group>";
+		};
+		A6619464F6292EF4776E75DAEA096950 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B01202489187F1A0C887AF181453974C /* UIViewController+AJKit.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		A7FFBE6D6F54169D4C488771BA81E847 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				711A287D8D78E92329FABB49FD512154 /* repleace1.swift */,
+			);
+			name = Algorithm;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -176,11 +234,25 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2AFB5E70766D0A02B1BC245C9F5BEF1B /* Development Pods */,
+				6F3378E20B8C8842C3A4497F17D6C3A7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8B1C010819B26A92309E8BD8A4DCE99B /* Products */,
-				EFE5D02878552FF99EDA3E55EFEBD677 /* Targets Support Files */,
+				60070108A415114B5BE0842D19CD8A23 /* Products */,
+				258C6FFDD326F1121C32C32F8E24C340 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D1D44D061E6D170030890FD942476F61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61387CD4CBF5974B6B3ADE3231BD5923 /* AJKitSwift.modulemap */,
+				86AF589BB21536DD63F3701EC7ED3CBB /* AJKitSwift.xcconfig */,
+				C69B753C8D73878D99875355E3566C72 /* AJKitSwift-dummy.m */,
+				B6870DCEF1D3F181CFAF72B33A33776F /* AJKitSwift-Info.plist */,
+				4EADC016BA789DC6DB8EDD44A456A819 /* AJKitSwift-prefix.pch */,
+				004502FB4193D0A70101D885598A593A /* AJKitSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../AJAppEventSwift/Example/Pods/Target Support Files/AJKitSwift";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -191,44 +263,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E092E39060AFEACAE93C6A6FE72BF343 /* AJAppEventSwift */ = {
+		E9D6217F9F210F9FBCE3FE43E7CE3F17 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DAC52FA34FA6FC80402A7E06D19B8527 /* ReplaceMe.swift */,
-				E5AB6BBE0904CC0C263049652617444C /* Pod */,
-				9B423F9F068419F0240EFE8DE1B1FE7C /* Support Files */,
-			);
-			name = AJAppEventSwift;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E5AB6BBE0904CC0C263049652617444C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B93AF0583233C8F83CD45744ABF4D972 /* AJAppEventSwift.podspec */,
-				18A9CED2B6D9CDF8E1ED164EE86836B3 /* LICENSE */,
-				7E7AA258FB059A262A7B42B63AAD6DEA /* README.md */,
+				EE45E3E2AC0902BE419B4A49EADB18B5 /* AJAppEventSwift.podspec */,
+				BFEC266F05F6A0EDFFF8E4C519006120 /* LICENSE */,
+				8028E1447313E99BEDDD444A2B81E25D /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		EFE5D02878552FF99EDA3E55EFEBD677 /* Targets Support Files */ = {
+		F979EB29FBDE2DF2DE9ED43BDD461467 /* Pods-AJAppEventSwift_Example */ = {
 			isa = PBXGroup;
 			children = (
-				5AE5760567F9E242BDFE59DD069946E1 /* Pods-AJAppEventSwift_Example */,
-				0FFC390E5232506BC05BC8C5A5C458A5 /* Pods-AJAppEventSwift_Tests */,
+				1F61A69A2CF2B8A6AFBAF73FF95E9644 /* Pods-AJAppEventSwift_Example.modulemap */,
+				C732872910168DD4152A7248FAE88D9C /* Pods-AJAppEventSwift_Example-acknowledgements.markdown */,
+				63027E2E958A016D6093210E906CFC2E /* Pods-AJAppEventSwift_Example-acknowledgements.plist */,
+				3E03086FBF015E8D12CD74A4FDC77A6E /* Pods-AJAppEventSwift_Example-dummy.m */,
+				BC65841E5ACACB53ECC4395B668AC3B5 /* Pods-AJAppEventSwift_Example-frameworks.sh */,
+				4CB851E83F6DCE2D19F8969E276F558C /* Pods-AJAppEventSwift_Example-Info.plist */,
+				4E7122C4F7EAE7CC424F747ED5668847 /* Pods-AJAppEventSwift_Example-umbrella.h */,
+				D40119100B164305E6F90F7FA312CE76 /* Pods-AJAppEventSwift_Example.debug.xcconfig */,
+				B0366BD2EEDC750BEBB165506043C161 /* Pods-AJAppEventSwift_Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-AJAppEventSwift_Example";
+			path = "Target Support Files/Pods-AJAppEventSwift_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8DF22F52EA58FB9EBC97C06775A030D5 /* Headers */ = {
+		6447EAEDA487904FF5D08EC2D3AEAAF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1FEC604C0EF8AA1FF4AF187ACC06B53 /* Pods-AJAppEventSwift_Tests-umbrella.h in Headers */,
+				6BA258F29CDF45ED5F4287805DDF6F4E /* AJKitSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,11 +309,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF9F3920B693156A3D0BBE5D46D52837 /* Headers */ = {
+		B9F5ABB4CE0984F123684605C5A5ED47 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02D85B496D51DD48DDAE70DE490E05B1 /* Pods-AJAppEventSwift_Example-umbrella.h in Headers */,
+				19614061478C04760A5520BCA9E4B686 /* Pods-AJAppEventSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,17 +322,18 @@
 /* Begin PBXNativeTarget section */
 		0A7979BF6B92527DF6C779CBDA87FBB1 /* Pods-AJAppEventSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78E84F7171B910AF297274769912D5ED /* Build configuration list for PBXNativeTarget "Pods-AJAppEventSwift_Example" */;
+			buildConfigurationList = E608A516133F1B0BA5C6CB9FDCDC61D5 /* Build configuration list for PBXNativeTarget "Pods-AJAppEventSwift_Example" */;
 			buildPhases = (
-				DF9F3920B693156A3D0BBE5D46D52837 /* Headers */,
-				13CD7C553A6782D09766C24670057F8A /* Sources */,
-				B3F2A678F60EBE356978984D85D0EF5B /* Frameworks */,
-				26B4B54794738CB6CA1D0B07316ACEE5 /* Resources */,
+				B9F5ABB4CE0984F123684605C5A5ED47 /* Headers */,
+				3145F37499F0E298C23E438AB9FC7B07 /* Sources */,
+				12F99BC5114DF69DF64274F75EA9E7B8 /* Frameworks */,
+				526AE262969258503E58325946001163 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A60573AF22E22F182D443281D8C4F542 /* PBXTargetDependency */,
+				397E549C937CFA3C6F72EE952E7D5202 /* PBXTargetDependency */,
+				CD8E41609FD3330DC83BFE490BAAB3C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-AJAppEventSwift_Example";
 			productName = "Pods-AJAppEventSwift_Example";
@@ -288,23 +358,22 @@
 			productReference = A81807E970091BFC8454942C472F844A /* AJAppEventSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EE5830A25F85D100679161268D58AC9D /* Pods-AJAppEventSwift_Tests */ = {
+		703C2A997B824F12775923E04C79D426 /* AJKitSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A263736F65C1B3688D8F12C8DF0F9F4 /* Build configuration list for PBXNativeTarget "Pods-AJAppEventSwift_Tests" */;
+			buildConfigurationList = E6009CE3A16A4D665E49BD0754B2CB3B /* Build configuration list for PBXNativeTarget "AJKitSwift" */;
 			buildPhases = (
-				8DF22F52EA58FB9EBC97C06775A030D5 /* Headers */,
-				24CEBFC1243DFE14860445682DA8C0BD /* Sources */,
-				F9B78BB7749C999E1B473F634B994698 /* Frameworks */,
-				16242B61984FDED06D9B4CDBB0041CBB /* Resources */,
+				6447EAEDA487904FF5D08EC2D3AEAAF8 /* Headers */,
+				6FCB7C6C5AAAD5639A401E3CB4CD2006 /* Sources */,
+				EC0CBDD0B6121F0D1C81CF3DCB00A4ED /* Frameworks */,
+				B7C733E6EF38DBE6829B0717EE1AA064 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C5FD138441E1FEEE968B9B675887E6B5 /* PBXTargetDependency */,
 			);
-			name = "Pods-AJAppEventSwift_Tests";
-			productName = "Pods-AJAppEventSwift_Tests";
-			productReference = B1C064111F439264C566F883978361C5 /* Pods_AJAppEventSwift_Tests.framework */;
+			name = AJKitSwift;
+			productName = AJKitSwift;
+			productReference = 1F2667C8F9100A34EFC629E89DD05940 /* AJKitSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,13 +393,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8B1C010819B26A92309E8BD8A4DCE99B /* Products */;
+			productRefGroup = 60070108A415114B5BE0842D19CD8A23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6918CB7A31B692EC369DDE28EEF1EDBC /* AJAppEventSwift */,
+				703C2A997B824F12775923E04C79D426 /* AJKitSwift */,
 				0A7979BF6B92527DF6C779CBDA87FBB1 /* Pods-AJAppEventSwift_Example */,
-				EE5830A25F85D100679161268D58AC9D /* Pods-AJAppEventSwift_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,14 +412,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16242B61984FDED06D9B4CDBB0041CBB /* Resources */ = {
+		526AE262969258503E58325946001163 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26B4B54794738CB6CA1D0B07316ACEE5 /* Resources */ = {
+		B7C733E6EF38DBE6829B0717EE1AA064 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,43 +438,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13CD7C553A6782D09766C24670057F8A /* Sources */ = {
+		3145F37499F0E298C23E438AB9FC7B07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2B714A86773139A9734675E64E4DA6 /* Pods-AJAppEventSwift_Example-dummy.m in Sources */,
+				A76F99C328A66B80EC685FC8A4E753F9 /* Pods-AJAppEventSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24CEBFC1243DFE14860445682DA8C0BD /* Sources */ = {
+		6FCB7C6C5AAAD5639A401E3CB4CD2006 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B419CE9A20B318E45449A22FA7FA75 /* Pods-AJAppEventSwift_Tests-dummy.m in Sources */,
+				F546EDA4697D98E09846F95BE19E52D3 /* AJKitConfig.swift in Sources */,
+				3FDE065F5A9D27AE4BB6E981FA094C08 /* AJKitSwift-dummy.m in Sources */,
+				2A0CFD08C0F320245D6E5DF154C141D8 /* NSObject+AJKit.swift in Sources */,
+				DA65C30D078F2812C7601323B59D6A94 /* repleace1.swift in Sources */,
+				02993D82D43FE8F8B8E33A3850D8B91A /* repleace2.swift in Sources */,
+				D659D0FAD2A0D644BEE22F47A2FB316B /* String+AJKit.swift in Sources */,
+				84791EA63AD3A9B2A6DEE9B8C3D68ED5 /* UIViewController+AJKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A60573AF22E22F182D443281D8C4F542 /* PBXTargetDependency */ = {
+		397E549C937CFA3C6F72EE952E7D5202 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AJAppEventSwift;
 			target = 6918CB7A31B692EC369DDE28EEF1EDBC /* AJAppEventSwift */;
-			targetProxy = 2DFAB5833E6954835E6A6DB54C705104 /* PBXContainerItemProxy */;
+			targetProxy = A74B8B4A916F5C69C3D3CF39A82D522A /* PBXContainerItemProxy */;
 		};
-		C5FD138441E1FEEE968B9B675887E6B5 /* PBXTargetDependency */ = {
+		CD8E41609FD3330DC83BFE490BAAB3C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-AJAppEventSwift_Example";
-			target = 0A7979BF6B92527DF6C779CBDA87FBB1 /* Pods-AJAppEventSwift_Example */;
-			targetProxy = 8F1378C2A3914FECAA428C301E910388 /* PBXContainerItemProxy */;
+			name = AJKitSwift;
+			target = 703C2A997B824F12775923E04C79D426 /* AJKitSwift */;
+			targetProxy = 739F7C1285BBD924F9ED05787FD07EA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0C69AADE5946A5B2DA9B1C21442F4154 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A54A5DEE5271155A405455DC55E6794 /* AJAppEventSwift.xcconfig */;
+			baseConfigurationReference = 12F3B64B04A5FBB2F60F62B6B09EBEED /* AJAppEventSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -434,11 +509,10 @@
 			};
 			name = Debug;
 		};
-		1CDF872A428D702355556F8CF1263B26 /* Release */ = {
+		3DCB734181C698E4B85617D364FA07C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9ABAB2D793CF7A584DDB905A63B0ABF6 /* Pods-AJAppEventSwift_Tests.release.xcconfig */;
+			baseConfigurationReference = 86AF589BB21536DD63F3701EC7ED3CBB /* AJKitSwift.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -448,87 +522,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AJAppEventSwift_Tests/Pods-AJAppEventSwift_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AJKitSwift/AJKitSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJKitSwift/AJKitSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AJAppEventSwift_Tests/Pods-AJAppEventSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/AJKitSwift/AJKitSwift.modulemap";
+				PRODUCT_MODULE_NAME = AJKitSwift;
+				PRODUCT_NAME = AJKitSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		254F43A356BDC3ADA78C8C9EB47D9E60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D046118089B5245D4971340ACBAE3BFC /* Pods-AJAppEventSwift_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AJAppEventSwift_Example/Pods-AJAppEventSwift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AJAppEventSwift_Example/Pods-AJAppEventSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2C787A58E96D4F6FD521A7F2E5F620F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1FFD2C59F4BC2F9788A62C3DDB89031 /* Pods-AJAppEventSwift_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AJAppEventSwift_Example/Pods-AJAppEventSwift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AJAppEventSwift_Example/Pods-AJAppEventSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -537,7 +542,7 @@
 		};
 		4990F7845AF7CD4FB6DA79D29DB04BB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A54A5DEE5271155A405455DC55E6794 /* AJAppEventSwift.xcconfig */;
+			baseConfigurationReference = 12F3B64B04A5FBB2F60F62B6B09EBEED /* AJAppEventSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -567,9 +572,9 @@
 			};
 			name = Release;
 		};
-		49D51C5B8238415642FB6CD9301A4BE8 /* Debug */ = {
+		7052F7BAE3DF468551D4D149B10B2959 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB877DB6CA83298DD0D486B8BA972E1A /* Pods-AJAppEventSwift_Tests.debug.xcconfig */;
+			baseConfigurationReference = B0366BD2EEDC750BEBB165506043C161 /* Pods-AJAppEventSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -581,12 +586,46 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AJAppEventSwift_Tests/Pods-AJAppEventSwift_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AJAppEventSwift_Example/Pods-AJAppEventSwift_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AJAppEventSwift_Tests/Pods-AJAppEventSwift_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AJAppEventSwift_Example/Pods-AJAppEventSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		933C1969CC211DBA48DAA80CD3C8F1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40119100B164305E6F90F7FA312CE76 /* Pods-AJAppEventSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AJAppEventSwift_Example/Pods-AJAppEventSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AJAppEventSwift_Example/Pods-AJAppEventSwift_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -724,18 +763,41 @@
 			};
 			name = Debug;
 		};
+		EB5FACDFFDB268570979847D878DA0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AF589BB21536DD63F3701EC7ED3CBB /* AJKitSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AJKitSwift/AJKitSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJKitSwift/AJKitSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AJKitSwift/AJKitSwift.modulemap";
+				PRODUCT_MODULE_NAME = AJKitSwift;
+				PRODUCT_NAME = AJKitSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A263736F65C1B3688D8F12C8DF0F9F4 /* Build configuration list for PBXNativeTarget "Pods-AJAppEventSwift_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49D51C5B8238415642FB6CD9301A4BE8 /* Debug */,
-				1CDF872A428D702355556F8CF1263B26 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -745,20 +807,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78E84F7171B910AF297274769912D5ED /* Build configuration list for PBXNativeTarget "Pods-AJAppEventSwift_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C787A58E96D4F6FD521A7F2E5F620F5 /* Debug */,
-				254F43A356BDC3ADA78C8C9EB47D9E60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		852D6EB34FF2AA8D67F5EC03E37C7F67 /* Build configuration list for PBXNativeTarget "AJAppEventSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C69AADE5946A5B2DA9B1C21442F4154 /* Debug */,
 				4990F7845AF7CD4FB6DA79D29DB04BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6009CE3A16A4D665E49BD0754B2CB3B /* Build configuration list for PBXNativeTarget "AJKitSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCB734181C698E4B85617D364FA07C7 /* Debug */,
+				EB5FACDFFDB268570979847D878DA0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E608A516133F1B0BA5C6CB9FDCDC61D5 /* Build configuration list for PBXNativeTarget "Pods-AJAppEventSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933C1969CC211DBA48DAA80CD3C8F1A7 /* Debug */,
+				7052F7BAE3DF468551D4D149B10B2959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

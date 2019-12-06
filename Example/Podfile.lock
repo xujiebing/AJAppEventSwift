@@ -1,16 +1,27 @@
 PODS:
   - AJAppEventSwift (0.1.0)
+  - AJKitSwift/Algorithm (0.1.0)
+  - AJKitSwift/Foundation (0.1.0)
+  - AJKitSwift/Runtime (0.1.0)
+  - AJKitSwift/UIKit (0.1.0)
 
 DEPENDENCIES:
   - AJAppEventSwift (from `../`)
+  - AJKitSwift/Algorithm (from `../../AJKitSwift`)
+  - AJKitSwift/Foundation (from `../../AJKitSwift`)
+  - AJKitSwift/Runtime (from `../../AJKitSwift`)
+  - AJKitSwift/UIKit (from `../../AJKitSwift`)
 
 EXTERNAL SOURCES:
   AJAppEventSwift:
     :path: "../"
+  AJKitSwift:
+    :path: "../../AJKitSwift"
 
 SPEC CHECKSUMS:
   AJAppEventSwift: f97a1e5ac8c31353ea03ff18e532abc4b536e9d7
+  AJKitSwift: 395f4b0e48c6531d2cfd3b7d22a8d0454d6f2dfa
 
-PODFILE CHECKSUM: a63cf99cc69241c0f38155209583931592ffb85d
+PODFILE CHECKSUM: 2607a97007d8a255a047129e6bb3fa63310542fa
 
 COCOAPODS: 1.7.5
