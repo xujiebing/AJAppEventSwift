@@ -1,0 +1,16 @@
+PODS:
+  - AJAppEventSwift (0.1.0)
+
+DEPENDENCIES:
+  - AJAppEventSwift (from `../`)
+
+EXTERNAL SOURCES:
+  AJAppEventSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AJAppEventSwift: f97a1e5ac8c31353ea03ff18e532abc4b536e9d7
+
+PODFILE CHECKSUM: a63cf99cc69241c0f38155209583931592ffb85d
+
+COCOAPODS: 1.7.5

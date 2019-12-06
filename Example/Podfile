@@ -3,9 +3,8 @@ use_frameworks!
 target 'AJAppEventSwift_Example' do
   pod 'AJAppEventSwift', :path => '../'
 
-  target 'AJAppEventSwift_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'AJKitSwift',
+  :subspecs => ['Foundation', 'UIKit', 'Runtime', 'Algorithm'],
+  :path => '../../AJKitSwift'
+  
 end

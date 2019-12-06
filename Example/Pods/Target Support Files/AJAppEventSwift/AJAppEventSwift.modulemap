@@ -1,0 +1,6 @@
+framework module AJAppEventSwift {
+  umbrella header "AJAppEventSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
