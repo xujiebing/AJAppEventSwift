@@ -3,8 +3,9 @@ use_frameworks!
 target 'AJAppEventSwift_Example' do
   pod 'AJAppEventSwift', :path => '../'
 
-  pod 'AJKitSwift',
-  :subspecs => ['Foundation', 'UIKit', 'Runtime', 'Algorithm'],
-  :path => '../../AJKitSwift'
+#  pod 'AJKitSwift',
+#  :subspecs => ['Foundation', 'UIKit'],
+#  :path => '../../AJKitSwift'
+  pod 'AJKitSwift'
   
 end

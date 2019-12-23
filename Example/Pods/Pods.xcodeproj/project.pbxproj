@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02993D82D43FE8F8B8E33A3850D8B91A /* repleace2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67AB6100911ED239F3FDEE5B53F26F /* repleace2.swift */; };
-		092E71165CF354D7928BA02A5E3FA39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0D9D2BCBCB0195759E2CCDACBD0E4012 /* NSObject+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8221A63A9718A7717EDFFE2D448F5B04 /* NSObject+AJKit.swift */; };
 		19614061478C04760A5520BCA9E4B686 /* Pods-AJAppEventSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7122C4F7EAE7CC424F747ED5668847 /* Pods-AJAppEventSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B1C03676CF9053A47283BDAF36E775C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1EA7B738D0FD9C2BE045F763C4A58152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2A0CFD08C0F320245D6E5DF154C141D8 /* NSObject+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4011BC63DAF68BA288BD8A1ECBF97D74 /* NSObject+AJKit.swift */; };
-		3ED49291FB25E494F25F14C91E767304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3FDE065F5A9D27AE4BB6E981FA094C08 /* AJKitSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C69B753C8D73878D99875355E3566C72 /* AJKitSwift-dummy.m */; };
-		4CE9BB1C2BB7E5BDA6D1BE2114A94315 /* AJAppEventSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1505D807DC34DAA2874F1CD491BF1C23 /* AJAppEventSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AE82EA083E6FE4C9687FB3E615F9BE1 /* AJAppEventSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC02C023753DEA3DC9DCB790248E7E0 /* AJAppEventSwift-dummy.m */; };
-		6BA258F29CDF45ED5F4287805DDF6F4E /* AJKitSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 004502FB4193D0A70101D885598A593A /* AJKitSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84791EA63AD3A9B2A6DEE9B8C3D68ED5 /* UIViewController+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01202489187F1A0C887AF181453974C /* UIViewController+AJKit.swift */; };
+		67B1EE27EAA82754F59CB55868E6F08F /* AJKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714B7436EF905390A4591323E1F874F /* AJKitConfig.swift */; };
+		746ACB1E5D6BCFDE7DD9EB67AC115408 /* AJAppEventSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 743016D7B0FF83DB4B35556FB570EEDE /* AJAppEventSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C358A097362F0931A8DA44A48131726 /* AJKitSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D012CB4A0D0088358944D6C1422345F8 /* AJKitSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F89F5F5C994ED8040475C7D7EF64C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A76F99C328A66B80EC685FC8A4E753F9 /* Pods-AJAppEventSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E03086FBF015E8D12CD74A4FDC77A6E /* Pods-AJAppEventSwift_Example-dummy.m */; };
-		D659D0FAD2A0D644BEE22F47A2FB316B /* String+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1692CD7A016654A6B457E0DF04D35A /* String+AJKit.swift */; };
-		DA65C30D078F2812C7601323B59D6A94 /* repleace1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A287D8D78E92329FABB49FD512154 /* repleace1.swift */; };
-		DAB8739BE4524A4DFB2C3B527516C06E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D4441D2AB5EB00140D4F5F5736DA0 /* ReplaceMe.swift */; };
-		F546EDA4697D98E09846F95BE19E52D3 /* AJKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9D2F3248F5A1D7A5D2F961826142F /* AJKitConfig.swift */; };
+		C0D23E59E99F57A5531573826EC91231 /* String+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08783D9E2D56EBD97AD50517C5A069 /* String+AJKit.swift */; };
+		D967A95C901F553F10122003ACC2E23B /* AJAppEventSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3198D82B54184758D8F89BFC2B143158 /* AJAppEventSwift-dummy.m */; };
+		DE67935423127F590CDE044C7AD1500A /* String+AJAppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59955393E9B9DFFC04270F943FE58 /* String+AJAppEvent.swift */; };
+		E3D5250525DF865F1D395DA72A35C30D /* AJKitSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031E8E43B976C2FC731DEB6CC6698A7F /* AJKitSwift-dummy.m */; };
+		FEDDFE977AB3BE0BB661270FC036EA85 /* AJAppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BDB58989553E646345CFDB6B0E5367 /* AJAppEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,45 +41,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004502FB4193D0A70101D885598A593A /* AJKitSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJKitSwift-umbrella.h"; sourceTree = "<group>"; };
-		0BA9D2F3248F5A1D7A5D2F961826142F /* AJKitConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJKitConfig.swift; path = AJKitSwift/Classes/Foundation/AJKitConfig.swift; sourceTree = "<group>"; };
-		0E67AB6100911ED239F3FDEE5B53F26F /* repleace2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = repleace2.swift; path = AJKitSwift/Classes/Runtime/repleace2.swift; sourceTree = "<group>"; };
-		12F3B64B04A5FBB2F60F62B6B09EBEED /* AJAppEventSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJAppEventSwift.xcconfig; sourceTree = "<group>"; };
-		1505D807DC34DAA2874F1CD491BF1C23 /* AJAppEventSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAppEventSwift-umbrella.h"; sourceTree = "<group>"; };
-		196D3D45D0E0AFD37B3259836823DC3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		031E8E43B976C2FC731DEB6CC6698A7F /* AJKitSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJKitSwift-dummy.m"; sourceTree = "<group>"; };
+		10653986F4BE0A0F9EFBBA5C888A8B47 /* AJKitSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJKitSwift-prefix.pch"; sourceTree = "<group>"; };
 		1F2667C8F9100A34EFC629E89DD05940 /* AJKitSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJKitSwift.framework; path = AJKitSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F61A69A2CF2B8A6AFBAF73FF95E9644 /* Pods-AJAppEventSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJAppEventSwift_Example.modulemap"; sourceTree = "<group>"; };
-		29DC6555FC9F3082BDD1977E1B0C1670 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		310946A7D7DF2E6678515E950F3F5266 /* AJAppEventSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAppEventSwift-prefix.pch"; sourceTree = "<group>"; };
+		300A1BACEE4ABFD702997D7F7CB3CC22 /* AJAppEventSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJAppEventSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3198D82B54184758D8F89BFC2B143158 /* AJAppEventSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJAppEventSwift-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E03086FBF015E8D12CD74A4FDC77A6E /* Pods-AJAppEventSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJAppEventSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		4011BC63DAF68BA288BD8A1ECBF97D74 /* NSObject+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+AJKit.swift"; path = "AJKitSwift/Classes/Foundation/NSObject+AJKit.swift"; sourceTree = "<group>"; };
+		45A5FCC395E620AD1A345BB4C628D4D2 /* AJKitSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJKitSwift.xcconfig; sourceTree = "<group>"; };
 		4CB851E83F6DCE2D19F8969E276F558C /* Pods-AJAppEventSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAppEventSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		4E7122C4F7EAE7CC424F747ED5668847 /* Pods-AJAppEventSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJAppEventSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		4EADC016BA789DC6DB8EDD44A456A819 /* AJKitSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJKitSwift-prefix.pch"; sourceTree = "<group>"; };
-		61387CD4CBF5974B6B3ADE3231BD5923 /* AJKitSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJKitSwift.modulemap; sourceTree = "<group>"; };
+		54BDB58989553E646345CFDB6B0E5367 /* AJAppEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJAppEvent.swift; path = AJAppEventSwift/Classes/AJAppEvent.swift; sourceTree = "<group>"; };
+		601BB0E36892CA947809BA7B11600933 /* AJAppEventSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJAppEventSwift.modulemap; sourceTree = "<group>"; };
 		63027E2E958A016D6093210E906CFC2E /* Pods-AJAppEventSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAppEventSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		711A287D8D78E92329FABB49FD512154 /* repleace1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = repleace1.swift; path = AJKitSwift/Classes/Algorithm/repleace1.swift; sourceTree = "<group>"; };
-		77B1318031B29E9E99192FF271ACE77E /* AJAppEventSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJAppEventSwift.modulemap; sourceTree = "<group>"; };
-		7C7E27CA4636643BB18D6F148E249120 /* AJAppEventSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJAppEventSwift-Info.plist"; sourceTree = "<group>"; };
-		8028E1447313E99BEDDD444A2B81E25D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		86AF589BB21536DD63F3701EC7ED3CBB /* AJKitSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJKitSwift.xcconfig; sourceTree = "<group>"; };
+		63E6A65B9AA7905FBAB4DD4A9D452880 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73F59955393E9B9DFFC04270F943FE58 /* String+AJAppEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+AJAppEvent.swift"; path = "AJAppEventSwift/Classes/String+AJAppEvent.swift"; sourceTree = "<group>"; };
+		743016D7B0FF83DB4B35556FB570EEDE /* AJAppEventSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAppEventSwift-umbrella.h"; sourceTree = "<group>"; };
+		8221A63A9718A7717EDFFE2D448F5B04 /* NSObject+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+AJKit.swift"; path = "AJKitSwift/Classes/Foundation/NSObject+AJKit.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A714B7436EF905390A4591323E1F874F /* AJKitConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJKitConfig.swift; path = AJKitSwift/Classes/Foundation/AJKitConfig.swift; sourceTree = "<group>"; };
 		A81807E970091BFC8454942C472F844A /* AJAppEventSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJAppEventSwift.framework; path = AJAppEventSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC9D4441D2AB5EB00140D4F5F5736DA0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AJAppEventSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		B01202489187F1A0C887AF181453974C /* UIViewController+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+AJKit.swift"; path = "AJKitSwift/Classes/UIKit/UIViewController+AJKit.swift"; sourceTree = "<group>"; };
+		AD02A7A36A303C23A2B7ABA6F6AAF2D9 /* AJAppEventSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAppEventSwift-prefix.pch"; sourceTree = "<group>"; };
 		B0366BD2EEDC750BEBB165506043C161 /* Pods-AJAppEventSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAppEventSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B6870DCEF1D3F181CFAF72B33A33776F /* AJKitSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJKitSwift-Info.plist"; sourceTree = "<group>"; };
-		BAC02C023753DEA3DC9DCB790248E7E0 /* AJAppEventSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJAppEventSwift-dummy.m"; sourceTree = "<group>"; };
+		B80D9CB6B8B800C132E910F16404A335 /* AJAppEventSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJAppEventSwift.xcconfig; sourceTree = "<group>"; };
 		BC65841E5ACACB53ECC4395B668AC3B5 /* Pods-AJAppEventSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJAppEventSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BFEC266F05F6A0EDFFF8E4C519006120 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C69B753C8D73878D99875355E3566C72 /* AJKitSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJKitSwift-dummy.m"; sourceTree = "<group>"; };
+		BD081BD741AF96B4CA5674987D9ED3B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C732872910168DD4152A7248FAE88D9C /* Pods-AJAppEventSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJAppEventSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D012CB4A0D0088358944D6C1422345F8 /* AJKitSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJKitSwift-umbrella.h"; sourceTree = "<group>"; };
 		D40119100B164305E6F90F7FA312CE76 /* Pods-AJAppEventSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAppEventSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DE1692CD7A016654A6B457E0DF04D35A /* String+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+AJKit.swift"; path = "AJKitSwift/Classes/Foundation/String+AJKit.swift"; sourceTree = "<group>"; };
+		DE08783D9E2D56EBD97AD50517C5A069 /* String+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+AJKit.swift"; path = "AJKitSwift/Classes/Foundation/String+AJKit.swift"; sourceTree = "<group>"; };
 		E2A6C9AEC4CE9FA6C25D88D9E3EEA418 /* Pods_AJAppEventSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJAppEventSwift_Example.framework; path = "Pods-AJAppEventSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE45E3E2AC0902BE419B4A49EADB18B5 /* AJAppEventSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJAppEventSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FB1B806BA2555BCF6004B6AD09EA2FC6 /* AJKitSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJKitSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E55A25A6D6C0957E15F3F96891F5F14E /* AJKitSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJKitSwift.modulemap; sourceTree = "<group>"; };
+		EE2B5DA9A51D6BCAD6900607DE059E40 /* AJKitSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJKitSwift-Info.plist"; sourceTree = "<group>"; };
+		FF4F2F5DA9860DE260C9DC04B23A4228 /* AJAppEventSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJAppEventSwift-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,48 +86,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC0CBDD0B6121F0D1C81CF3DCB00A4ED /* Frameworks */ = {
+		BC209A6EBED541EFFF22CBCC1C4D1EAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				092E71165CF354D7928BA02A5E3FA39A /* Foundation.framework in Frameworks */,
+				1B1C03676CF9053A47283BDAF36E775C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECDED2A10B4C4105F632CDFD4FE769AE /* Frameworks */ = {
+		F1A84FC28D95BF5412879BB4C9E7C96C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED49291FB25E494F25F14C91E767304 /* Foundation.framework in Frameworks */,
+				8F89F5F5C994ED8040475C7D7EF64C51 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1732EB78B7570CA2752028DCDA91D2B9 /* Support Files */ = {
+		0B49F2EC89315DE87AEDBBD980EECAFF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				77B1318031B29E9E99192FF271ACE77E /* AJAppEventSwift.modulemap */,
-				12F3B64B04A5FBB2F60F62B6B09EBEED /* AJAppEventSwift.xcconfig */,
-				BAC02C023753DEA3DC9DCB790248E7E0 /* AJAppEventSwift-dummy.m */,
-				7C7E27CA4636643BB18D6F148E249120 /* AJAppEventSwift-Info.plist */,
-				310946A7D7DF2E6678515E950F3F5266 /* AJAppEventSwift-prefix.pch */,
-				1505D807DC34DAA2874F1CD491BF1C23 /* AJAppEventSwift-umbrella.h */,
+				13A8A161DECC2DCB20AEBB868B0373FB /* AJKitSwift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AJAppEventSwift";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		1DADE802853B7198ADBFF7B142EBDA50 /* AJAppEventSwift */ = {
+		109A75DE861CB7E6113DF808A6FDD815 /* AJAppEventSwift */ = {
 			isa = PBXGroup;
 			children = (
-				AC9D4441D2AB5EB00140D4F5F5736DA0 /* ReplaceMe.swift */,
-				E9D6217F9F210F9FBCE3FE43E7CE3F17 /* Pod */,
-				1732EB78B7570CA2752028DCDA91D2B9 /* Support Files */,
+				54BDB58989553E646345CFDB6B0E5367 /* AJAppEvent.swift */,
+				73F59955393E9B9DFFC04270F943FE58 /* String+AJAppEvent.swift */,
+				295DA94E23ACE3CDE763A4CCED5AC725 /* Pod */,
+				862217E101C69D54EBE6005A925B5345 /* Support Files */,
 			);
 			name = AJAppEventSwift;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		13A8A161DECC2DCB20AEBB868B0373FB /* AJKitSwift */ = {
+			isa = PBXGroup;
+			children = (
+				13E5FFDC975E4A2D7783A25D8BC1C8B5 /* Foundation */,
+				8FB99E412026FE79DC351313E338C90E /* Support Files */,
+			);
+			name = AJKitSwift;
+			path = AJKitSwift;
+			sourceTree = "<group>";
+		};
+		13E5FFDC975E4A2D7783A25D8BC1C8B5 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A714B7436EF905390A4591323E1F874F /* AJKitConfig.swift */,
+				8221A63A9718A7717EDFFE2D448F5B04 /* NSObject+AJKit.swift */,
+				DE08783D9E2D56EBD97AD50517C5A069 /* String+AJKit.swift */,
+			);
+			name = Foundation;
 			sourceTree = "<group>";
 		};
 		258C6FFDD326F1121C32C32F8E24C340 /* Targets Support Files */ = {
@@ -145,30 +153,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		28652B8D88898C477C6E25DF54ADC7DF /* Runtime */ = {
+		295DA94E23ACE3CDE763A4CCED5AC725 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0E67AB6100911ED239F3FDEE5B53F26F /* repleace2.swift */,
-			);
-			name = Runtime;
-			sourceTree = "<group>";
-		};
-		29759EADF6FB0321537E24519B000323 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				0BA9D2F3248F5A1D7A5D2F961826142F /* AJKitConfig.swift */,
-				4011BC63DAF68BA288BD8A1ECBF97D74 /* NSObject+AJKit.swift */,
-				DE1692CD7A016654A6B457E0DF04D35A /* String+AJKit.swift */,
-			);
-			name = Foundation;
-			sourceTree = "<group>";
-		};
-		3055D406025EC87CC38406FDF2722E1A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FB1B806BA2555BCF6004B6AD09EA2FC6 /* AJKitSwift.podspec */,
-				196D3D45D0E0AFD37B3259836823DC3D /* LICENSE */,
-				29DC6555FC9F3082BDD1977E1B0C1670 /* README.md */,
+				300A1BACEE4ABFD702997D7F7CB3CC22 /* AJAppEventSwift.podspec */,
+				63E6A65B9AA7905FBAB4DD4A9D452880 /* LICENSE */,
+				BD081BD741AF96B4CA5674987D9ED3B2 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -183,43 +173,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F3378E20B8C8842C3A4497F17D6C3A7 /* Development Pods */ = {
+		862217E101C69D54EBE6005A925B5345 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DADE802853B7198ADBFF7B142EBDA50 /* AJAppEventSwift */,
-				9C970D2F090AD88B8C7AADA7B5E8D131 /* AJKitSwift */,
+				601BB0E36892CA947809BA7B11600933 /* AJAppEventSwift.modulemap */,
+				B80D9CB6B8B800C132E910F16404A335 /* AJAppEventSwift.xcconfig */,
+				3198D82B54184758D8F89BFC2B143158 /* AJAppEventSwift-dummy.m */,
+				FF4F2F5DA9860DE260C9DC04B23A4228 /* AJAppEventSwift-Info.plist */,
+				AD02A7A36A303C23A2B7ABA6F6AAF2D9 /* AJAppEventSwift-prefix.pch */,
+				743016D7B0FF83DB4B35556FB570EEDE /* AJAppEventSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AJAppEventSwift";
+			sourceTree = "<group>";
+		};
+		8FACE09C2AD7DE48617828A2BECEE5D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				109A75DE861CB7E6113DF808A6FDD815 /* AJAppEventSwift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9C970D2F090AD88B8C7AADA7B5E8D131 /* AJKitSwift */ = {
+		8FB99E412026FE79DC351313E338C90E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7FFBE6D6F54169D4C488771BA81E847 /* Algorithm */,
-				29759EADF6FB0321537E24519B000323 /* Foundation */,
-				3055D406025EC87CC38406FDF2722E1A /* Pod */,
-				28652B8D88898C477C6E25DF54ADC7DF /* Runtime */,
-				D1D44D061E6D170030890FD942476F61 /* Support Files */,
-				A6619464F6292EF4776E75DAEA096950 /* UIKit */,
+				E55A25A6D6C0957E15F3F96891F5F14E /* AJKitSwift.modulemap */,
+				45A5FCC395E620AD1A345BB4C628D4D2 /* AJKitSwift.xcconfig */,
+				031E8E43B976C2FC731DEB6CC6698A7F /* AJKitSwift-dummy.m */,
+				EE2B5DA9A51D6BCAD6900607DE059E40 /* AJKitSwift-Info.plist */,
+				10653986F4BE0A0F9EFBBA5C888A8B47 /* AJKitSwift-prefix.pch */,
+				D012CB4A0D0088358944D6C1422345F8 /* AJKitSwift-umbrella.h */,
 			);
-			name = AJKitSwift;
-			path = ../../../AJKitSwift;
-			sourceTree = "<group>";
-		};
-		A6619464F6292EF4776E75DAEA096950 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				B01202489187F1A0C887AF181453974C /* UIViewController+AJKit.swift */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		A7FFBE6D6F54169D4C488771BA81E847 /* Algorithm */ = {
-			isa = PBXGroup;
-			children = (
-				711A287D8D78E92329FABB49FD512154 /* repleace1.swift */,
-			);
-			name = Algorithm;
+			name = "Support Files";
+			path = "../Target Support Files/AJKitSwift";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -234,25 +221,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6F3378E20B8C8842C3A4497F17D6C3A7 /* Development Pods */,
+				8FACE09C2AD7DE48617828A2BECEE5D0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0B49F2EC89315DE87AEDBBD980EECAFF /* Pods */,
 				60070108A415114B5BE0842D19CD8A23 /* Products */,
 				258C6FFDD326F1121C32C32F8E24C340 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1D44D061E6D170030890FD942476F61 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				61387CD4CBF5974B6B3ADE3231BD5923 /* AJKitSwift.modulemap */,
-				86AF589BB21536DD63F3701EC7ED3CBB /* AJKitSwift.xcconfig */,
-				C69B753C8D73878D99875355E3566C72 /* AJKitSwift-dummy.m */,
-				B6870DCEF1D3F181CFAF72B33A33776F /* AJKitSwift-Info.plist */,
-				4EADC016BA789DC6DB8EDD44A456A819 /* AJKitSwift-prefix.pch */,
-				004502FB4193D0A70101D885598A593A /* AJKitSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../AJAppEventSwift/Example/Pods/Target Support Files/AJKitSwift";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -261,16 +235,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E9D6217F9F210F9FBCE3FE43E7CE3F17 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EE45E3E2AC0902BE419B4A49EADB18B5 /* AJAppEventSwift.podspec */,
-				BFEC266F05F6A0EDFFF8E4C519006120 /* LICENSE */,
-				8028E1447313E99BEDDD444A2B81E25D /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		F979EB29FBDE2DF2DE9ED43BDD461467 /* Pods-AJAppEventSwift_Example */ = {
@@ -293,19 +257,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6447EAEDA487904FF5D08EC2D3AEAAF8 /* Headers */ = {
+		42CCC4CDC4B50E4EA13430633DF3496D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BA258F29CDF45ED5F4287805DDF6F4E /* AJKitSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EEC040E38A5729A4E2347A90D282018 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CE9BB1C2BB7E5BDA6D1BE2114A94315 /* AJAppEventSwift-umbrella.h in Headers */,
+				7C358A097362F0931A8DA44A48131726 /* AJKitSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +270,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				19614061478C04760A5520BCA9E4B686 /* Pods-AJAppEventSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0446457E77BE9F812624A3126D9741 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746ACB1E5D6BCFDE7DD9EB67AC115408 /* AJAppEventSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,12 +306,12 @@
 		};
 		6918CB7A31B692EC369DDE28EEF1EDBC /* AJAppEventSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 852D6EB34FF2AA8D67F5EC03E37C7F67 /* Build configuration list for PBXNativeTarget "AJAppEventSwift" */;
+			buildConfigurationList = B29A81DCD883DE6CA0BE0B7254C3B821 /* Build configuration list for PBXNativeTarget "AJAppEventSwift" */;
 			buildPhases = (
-				8EEC040E38A5729A4E2347A90D282018 /* Headers */,
-				0017F16E48A0F6C26A63950325FEEA8C /* Sources */,
-				ECDED2A10B4C4105F632CDFD4FE769AE /* Frameworks */,
-				116ED4F59EC395F8D6309720A3A7E9EC /* Resources */,
+				EB0446457E77BE9F812624A3126D9741 /* Headers */,
+				124662030168157274F1279E90B8C4F1 /* Sources */,
+				BC209A6EBED541EFFF22CBCC1C4D1EAF /* Frameworks */,
+				B95AD26F5DC6C7F7355FCE64BEC94EFE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -360,12 +324,12 @@
 		};
 		703C2A997B824F12775923E04C79D426 /* AJKitSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6009CE3A16A4D665E49BD0754B2CB3B /* Build configuration list for PBXNativeTarget "AJKitSwift" */;
+			buildConfigurationList = F2E3542591C242DF28E38765DAEBF6BF /* Build configuration list for PBXNativeTarget "AJKitSwift" */;
 			buildPhases = (
-				6447EAEDA487904FF5D08EC2D3AEAAF8 /* Headers */,
-				6FCB7C6C5AAAD5639A401E3CB4CD2006 /* Sources */,
-				EC0CBDD0B6121F0D1C81CF3DCB00A4ED /* Frameworks */,
-				B7C733E6EF38DBE6829B0717EE1AA064 /* Resources */,
+				42CCC4CDC4B50E4EA13430633DF3496D /* Headers */,
+				29BAD8AF9B9C6F64C576AD82AADA1973 /* Sources */,
+				F1A84FC28D95BF5412879BB4C9E7C96C /* Frameworks */,
+				BECC9D1305295C82C03C94D1ACC93547 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -405,13 +369,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		116ED4F59EC395F8D6309720A3A7E9EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		526AE262969258503E58325946001163 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,7 +376,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7C733E6EF38DBE6829B0717EE1AA064 /* Resources */ = {
+		B95AD26F5DC6C7F7355FCE64BEC94EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BECC9D1305295C82C03C94D1ACC93547 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,12 +393,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0017F16E48A0F6C26A63950325FEEA8C /* Sources */ = {
+		124662030168157274F1279E90B8C4F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AE82EA083E6FE4C9687FB3E615F9BE1 /* AJAppEventSwift-dummy.m in Sources */,
-				DAB8739BE4524A4DFB2C3B527516C06E /* ReplaceMe.swift in Sources */,
+				FEDDFE977AB3BE0BB661270FC036EA85 /* AJAppEvent.swift in Sources */,
+				D967A95C901F553F10122003ACC2E23B /* AJAppEventSwift-dummy.m in Sources */,
+				DE67935423127F590CDE044C7AD1500A /* String+AJAppEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BAD8AF9B9C6F64C576AD82AADA1973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B1EE27EAA82754F59CB55868E6F08F /* AJKitConfig.swift in Sources */,
+				E3D5250525DF865F1D395DA72A35C30D /* AJKitSwift-dummy.m in Sources */,
+				0D9D2BCBCB0195759E2CCDACBD0E4012 /* NSObject+AJKit.swift in Sources */,
+				C0D23E59E99F57A5531573826EC91231 /* String+AJKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,20 +419,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A76F99C328A66B80EC685FC8A4E753F9 /* Pods-AJAppEventSwift_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FCB7C6C5AAAD5639A401E3CB4CD2006 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F546EDA4697D98E09846F95BE19E52D3 /* AJKitConfig.swift in Sources */,
-				3FDE065F5A9D27AE4BB6E981FA094C08 /* AJKitSwift-dummy.m in Sources */,
-				2A0CFD08C0F320245D6E5DF154C141D8 /* NSObject+AJKit.swift in Sources */,
-				DA65C30D078F2812C7601323B59D6A94 /* repleace1.swift in Sources */,
-				02993D82D43FE8F8B8E33A3850D8B91A /* repleace2.swift in Sources */,
-				D659D0FAD2A0D644BEE22F47A2FB316B /* String+AJKit.swift in Sources */,
-				84791EA63AD3A9B2A6DEE9B8C3D68ED5 /* UIViewController+AJKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,9 +440,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C69AADE5946A5B2DA9B1C21442F4154 /* Debug */ = {
+		57A45E174A16909A89E4CA2922B7A0BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12F3B64B04A5FBB2F60F62B6B09EBEED /* AJAppEventSwift.xcconfig */;
+			baseConfigurationReference = 45A5FCC395E620AD1A345BB4C628D4D2 /* AJKitSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -491,27 +453,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AJAppEventSwift/AJAppEventSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AJAppEventSwift/AJAppEventSwift-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AJKitSwift/AJKitSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJKitSwift/AJKitSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AJAppEventSwift/AJAppEventSwift.modulemap";
-				PRODUCT_MODULE_NAME = AJAppEventSwift;
-				PRODUCT_NAME = AJAppEventSwift;
+				MODULEMAP_FILE = "Target Support Files/AJKitSwift/AJKitSwift.modulemap";
+				PRODUCT_MODULE_NAME = AJKitSwift;
+				PRODUCT_NAME = AJKitSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		3DCB734181C698E4B85617D364FA07C7 /* Debug */ = {
+		5977FDA777AAC7FC50BF1CBF73D71472 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86AF589BB21536DD63F3701EC7ED3CBB /* AJKitSwift.xcconfig */;
+			baseConfigurationReference = 45A5FCC395E620AD1A345BB4C628D4D2 /* AJKitSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -539,38 +502,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4990F7845AF7CD4FB6DA79D29DB04BB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12F3B64B04A5FBB2F60F62B6B09EBEED /* AJAppEventSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AJAppEventSwift/AJAppEventSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AJAppEventSwift/AJAppEventSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AJAppEventSwift/AJAppEventSwift.modulemap";
-				PRODUCT_MODULE_NAME = AJAppEventSwift;
-				PRODUCT_NAME = AJAppEventSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7052F7BAE3DF468551D4D149B10B2959 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -763,9 +694,9 @@
 			};
 			name = Debug;
 		};
-		EB5FACDFFDB268570979847D878DA0BC /* Release */ = {
+		BD874697B5F329416E21FCE63CDD116E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86AF589BB21536DD63F3701EC7ED3CBB /* AJKitSwift.xcconfig */;
+			baseConfigurationReference = B80D9CB6B8B800C132E910F16404A335 /* AJAppEventSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -776,14 +707,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AJKitSwift/AJKitSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AJKitSwift/AJKitSwift-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AJAppEventSwift/AJAppEventSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJAppEventSwift/AJAppEventSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AJKitSwift/AJKitSwift.modulemap";
-				PRODUCT_MODULE_NAME = AJKitSwift;
-				PRODUCT_NAME = AJKitSwift;
+				MODULEMAP_FILE = "Target Support Files/AJAppEventSwift/AJAppEventSwift.modulemap";
+				PRODUCT_MODULE_NAME = AJAppEventSwift;
+				PRODUCT_NAME = AJAppEventSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -794,6 +725,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D6BD9BEB7C3E62FF8AE1929DDFFCF28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80D9CB6B8B800C132E910F16404A335 /* AJAppEventSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AJAppEventSwift/AJAppEventSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJAppEventSwift/AJAppEventSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AJAppEventSwift/AJAppEventSwift.modulemap";
+				PRODUCT_MODULE_NAME = AJAppEventSwift;
+				PRODUCT_NAME = AJAppEventSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -807,20 +769,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		852D6EB34FF2AA8D67F5EC03E37C7F67 /* Build configuration list for PBXNativeTarget "AJAppEventSwift" */ = {
+		B29A81DCD883DE6CA0BE0B7254C3B821 /* Build configuration list for PBXNativeTarget "AJAppEventSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C69AADE5946A5B2DA9B1C21442F4154 /* Debug */,
-				4990F7845AF7CD4FB6DA79D29DB04BB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6009CE3A16A4D665E49BD0754B2CB3B /* Build configuration list for PBXNativeTarget "AJKitSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3DCB734181C698E4B85617D364FA07C7 /* Debug */,
-				EB5FACDFFDB268570979847D878DA0BC /* Release */,
+				D6BD9BEB7C3E62FF8AE1929DDFFCF28D /* Debug */,
+				BD874697B5F329416E21FCE63CDD116E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -830,6 +783,15 @@
 			buildConfigurations = (
 				933C1969CC211DBA48DAA80CD3C8F1A7 /* Debug */,
 				7052F7BAE3DF468551D4D149B10B2959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E3542591C242DF28E38765DAEBF6BF /* Build configuration list for PBXNativeTarget "AJKitSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5977FDA777AAC7FC50BF1CBF73D71472 /* Debug */,
+				57A45E174A16909A89E4CA2922B7A0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

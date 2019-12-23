@@ -7,17 +7,35 @@
 //
 
 import UIKit
+import AJKitSwift
+import AJAppEventSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let name = "testNotification"
+        AJAppEvent.shared.addObserver(observer: self, name: name) { (model) in
+            AJPrintLog("")
+        }
+        AJAppEvent.shared.postNotification(name: name)
     }
 
+    @IBAction func push(_ sender: Any) {
+        self.navigationController?.pushViewController(ViewController1.init(), animated: true)
+    }
+    
+    @IBAction func notification(_ sender: Any) {
+        AJAppEvent.shared.postNotification(name: "ViewController1")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    deinit {
+        AJPrintLog("没有内存泄漏")
     }
 
 }

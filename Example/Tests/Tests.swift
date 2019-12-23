@@ -1,5 +1,4 @@
 import XCTest
-import AJAppEventSwift
 
 class Tests: XCTestCase {
     
