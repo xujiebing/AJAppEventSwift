@@ -11,115 +11,106 @@ public typealias AJAppEventBlock = (Notification) -> Void
 
 public class AJAppEvent: NSObject {
     
-    var observerDic = [String: [AJAppEventBlock]]()
+    var observerDic = [String: AJAppEventBlock]()
     
-    public static let shared = AJAppEvent.init()
-    private override init() {
-        super.init()
+    public func addObserver(name: String, block: @escaping AJAppEventBlock) {
+        guard let _ = self.observerDic[name] else {
+            self.observerDic[name] = block
+            NotificationCenter.default.addObserver(self, selector: #selector(notificationEvent(notification:)), name: name.notificationName, object: nil)
+            return
+        }
     }
     
-    public func addObserver(observer: Any, name: String, block: @escaping AJAppEventBlock) {
-        self.addObserver(name: name, block: block)
-        NotificationCenter.default.addObserver(self, selector: #selector(notificationEvent(notification:)), name: name.notificationName, object: nil)
-    }
-    
-    public func postNotification(name: String) {
+    public static func postNotification(name: String) {
         NotificationCenter.default.post(name: name.notificationName, object: nil)
     }
     
-    public func postNotification(name: String, object: Any) {
+    public static func postNotification(name: String, object: Any) {
         NotificationCenter.default.post(name: name.notificationName, object: object)
     }
     
-    public func postNotification(name: String, object: Any?, userInfo: [AnyHashable:Any]) {
+    public static func postNotification(name: String, object: Any?, userInfo: [AnyHashable:Any]) {
         NotificationCenter.default.post(name: name.notificationName, object: object, userInfo: userInfo)
     }
     
-    public func removeObserver(observer: Any) {
-        NotificationCenter.default.removeObserver(observer)
+    public func removeObserver() {
+        NotificationCenter.default.removeObserver(self)
     }
     
-    public func removeObserver(observer: Any, name: String) {
-        NotificationCenter.default.removeObserver(observer, name: name.notificationName, object: nil)
+    public func removeObserver(name: String) {
+        NotificationCenter.default.removeObserver(self, name: name.notificationName, object: nil)
     }
     
-    public func didEnterBackground(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationDidEnterBackground.rawValue, block: block)
+    public func didEnterBackground(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationDidEnterBackground.rawValue, block: block)
     }
     
-    public func WillEnterForeground(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationWillEnterForeground.rawValue, block: block)
+    public func WillEnterForeground(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationWillEnterForeground.rawValue, block: block)
     }
     
-    public func didFinishLaunching(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationDidFinishLaunching.rawValue, block: block)
+    public func didFinishLaunching(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationDidFinishLaunching.rawValue, block: block)
     }
     
-    public func didBecomeActive(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationDidBecomeActive.rawValue, block: block)
+    public func didBecomeActive(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationDidBecomeActive.rawValue, block: block)
     }
     
-    public func willResignActive(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationWillResignActive.rawValue, block: block)
+    public func willResignActive(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationWillResignActive.rawValue, block: block)
     }
     
-    public func willTerminate(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationWillTerminate.rawValue, block: block)
+    public func willTerminate(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationWillTerminate.rawValue, block: block)
     }
     
-    public func didReceiveMemoryWarning(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationDidReceiveMemoryWarning.rawValue, block: block)
+    public func didReceiveMemoryWarning(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationDidReceiveMemoryWarning.rawValue, block: block)
     }
     
-    public func significantTimeChange(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationSignificantTimeChange.rawValue, block: block)
+    public func significantTimeChange(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationSignificantTimeChange.rawValue, block: block)
     }
     
-    public func willChangeStatusBarOrientation(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationWillChangeStatusBarOrientation.rawValue, block: block)
+    public func willChangeStatusBarOrientation(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationWillChangeStatusBarOrientation.rawValue, block: block)
     }
     
-    public func didChangeStatusBarOrientation(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationDidChangeStatusBarOrientation.rawValue, block: block)
+    public func didChangeStatusBarOrientation(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationDidChangeStatusBarOrientation.rawValue, block: block)
     }
     
-    public func willChangeStatusBarFrame(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationWillChangeStatusBarFrame.rawValue, block: block)
+    public func willChangeStatusBarFrame(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationWillChangeStatusBarFrame.rawValue, block: block)
     }
     
-    public func didChangeStatusBarFrame(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationDidChangeStatusBarFrame.rawValue, block: block)
+    public func didChangeStatusBarFrame(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationDidChangeStatusBarFrame.rawValue, block: block)
     }
     
-    public func backgroundRefreshStatusDidChange(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationBackgroundRefreshStatusDidChange.rawValue, block: block)
+    public func backgroundRefreshStatusDidChange(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationBackgroundRefreshStatusDidChange.rawValue, block: block)
     }
     
-    public func protectedDataWillBecomeUnavailable(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationProtectedDataWillBecomeUnavailable.rawValue, block: block)
+    public func protectedDataWillBecomeUnavailable(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationProtectedDataWillBecomeUnavailable.rawValue, block: block)
     }
     
-    public func protectedDataDidBecomeAvailable(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationProtectedDataDidBecomeAvailable.rawValue, block: block)
+    public func protectedDataDidBecomeAvailable(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationProtectedDataDidBecomeAvailable.rawValue, block: block)
     }
     
-    public func userDidTakeScreenshot(observer: Any, block: @escaping AJAppEventBlock) {
-        self.addObserver(observer: observer, name: Notification.Name.UIApplicationUserDidTakeScreenshot.rawValue, block: block)
+    public func userDidTakeScreenshot(block: @escaping AJAppEventBlock) {
+        self.addObserver(name: Notification.Name.UIApplicationUserDidTakeScreenshot.rawValue, block: block)
     }
 
-    func addObserver(name: String, block: @escaping AJAppEventBlock) {
-        guard let _ = self.observerDic[name] else {
-            self.observerDic[name] = [block]
-            return;
-        }
-        self.observerDic[name]!.append(block)
-    }
-    
     @objc func notificationEvent(notification: Notification) {
-        guard let blockArray = self.observerDic[notification.name.rawValue] else { return }
-        for block in blockArray {
-            block(notification)
-        }
+        guard let block = self.observerDic[notification.name.rawValue] else { return }
+        
+        block(notification)
+//        for block in blockArray {
+//        }
     }
 }
 

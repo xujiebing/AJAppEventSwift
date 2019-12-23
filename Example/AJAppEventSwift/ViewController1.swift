@@ -11,19 +11,19 @@ import AJKitSwift
 import AJAppEventSwift
 
 class ViewController1: UIViewController {
-
+    let appEvent = AJAppEvent.init()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-        let name = "ViewController1"
-        AJAppEvent.shared.addObserver(observer: self, name: name) { (notificaiton) in
+        let name = "ViewController"
+        self.appEvent.addObserver(name: name) { (notificaiton) in
             AJPrintLog("")
         }
     }
     
     deinit {
         AJPrintLog("ViewController1没有内存泄露")
-        NotificationCenter.default.removeObserver(AJAppEvent.shared, name: Notification.Name.init("ViewController1"), object: nil)
     }
 
 }

@@ -12,13 +12,15 @@ import AJAppEventSwift
 
 class ViewController: UIViewController {
 
+    let appEvent = AJAppEvent.init()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let name = "testNotification"
-        AJAppEvent.shared.addObserver(observer: self, name: name) { (model) in
+        self.appEvent.addObserver(name: name) { (model) in
             AJPrintLog("")
         }
-        AJAppEvent.shared.postNotification(name: name)
+        AJAppEvent.postNotification(name: name)
     }
 
     @IBAction func push(_ sender: Any) {
@@ -26,7 +28,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func notification(_ sender: Any) {
-        AJAppEvent.shared.postNotification(name: "ViewController1")
+        AJAppEvent.postNotification(name: "ViewController1")
     }
     
     override func didReceiveMemoryWarning() {
